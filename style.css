@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 html {
     background: #018DED url(http://unsplash.it/1500/1000?image=881&blur=10);
     background-size: cover;
-    font-family: 'helvetica neue';
+    font-family: 'Raleway' sans-serif;
     text-align: center;
     font-size: 10px;
 }
@@ -12,6 +14,39 @@ body {
     flex: 1;
     min-height: 100vh;
     align-items: center;
+    justify-content: center;
+}
+
+.hori {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.three {
+    font-size: 5rem;
+}
+
+.nine {
+    font-size: 5rem;
+}
+
+.vert {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.twelve {
+    font-size: 5rem;
+    transform: translateY(40px);
+}
+
+.six {
+    font-size: 5rem;
+    transform: translateY(-40px);
 }
 
 .clock {
@@ -46,4 +81,14 @@ body {
     transform: rotate(90deg);
     transition: all 0.05s;
     transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+.circle {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: black;
+    border-radius: 50%;
+    top: 48%;
+    left: 48%;
 }
