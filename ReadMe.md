@@ -18,9 +18,10 @@ The "Clock" project is a simple web application that displays a clock interface 
 To explore and run the "Clock" project locally, follow these steps:
 
 1. __Clone the Repository:__
-\```bash
+```bash
 git clone https://github.com/Mtoal087/Clock.git
-cd Clock\```
+cd Clock
+```
 2. __Open the Project:__
 Open the __'index.html'__ file in a web browser to view the clock interface.
 
